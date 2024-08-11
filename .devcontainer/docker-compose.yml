@@ -1,0 +1,8 @@
+services:
+    survey-app:
+        build: 
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - ../..:/workspaces:cached
+
